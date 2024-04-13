@@ -1,0 +1,73 @@
+body {
+  background-color: white;
+    color: black;
+}
+.container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .h3 {
+    flex: 0 0 auto; 
+    margin-left: 45px;
+  }
+
+  .buttons {
+    flex: 1; 
+    text-align: center;
+    
+  }
+
+  .buttons button {
+    margin: 0 45px; 
+    border-style: hidden;
+    border-color: black;
+    background-color: white;
+  }
+
+  .button-right {
+    flex: 0 0 auto; 
+      margin-right: 50px;
+  }
+  .button-right button {
+background-color: white;
+        border-bottom: black;
+        border-radius: 0.5rem;
+  }
+  main {
+    background-color: skyblue;
+    border-radius: 20px;
+    height: 650px;
+    margin: 60px;
+    padding-top: 1px;
+  }
+  p {
+    font-size: 100px;
+      text-align: left;
+      margin-top: 20px auto;
+      margin-left: 20px;
+      flex: 0 0 auto; 
+    margin-right: 700px;
+    font-weight: 600;
+  }
+  h5 {
+    text-align: left;
+      margin-top: -80px;
+      margin-left: 35px;
+      margin-right: 850px;
+      font-size: 20px;
+      font-family: sans-serif;
+      font-weight: 100;
+      padding-left: 0px;
+      padding-right: 5px;
+  }
+  .dropdown{
+    background-color: skyblue;
+      margin-top: 50px;
+      margin-left: 9px;
+      border-style: hidden;
+      padding: 20px;
+
+  }
